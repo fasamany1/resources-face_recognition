@@ -1,15 +1,15 @@
 # Portfolio Project - Face Recognition Tool With Python
 
-This is a small CLI foundation project to on how I built a face recognition tool using Python. 
+This is a small CLI project  on how I built a face recognition tool using Python. 
 
 ## Dependencies To Install
 
-`dlib` requires both CMake and a C++ compiler to be installed before using it. Its also advisable to install python3-dev
+* `dlib` requires both CMake and a C++ compiler to be installed before using it. Its also advisable to install python3-dev
 Refer to the [CMake documentation](https://cmake.org/install/) and that of your preferred C++ compiler for 
 installation instructions.
-`face_recognition` a python library required for recognition tasks.
-`Pillow` required for comprehensive image handling, manipulation, and format conversion capabilities. 
-`numpy` required for robust numerical and array processing capabilities.
+* `face_recognition` a python library required for recognition tasks.
+* `Pillow` required for comprehensive image handling, manipulation, and format conversion capabilities. 
+* `numpy` required for robust numerical and array processing capabilities.
 
 The script will make use of `training/`, `output/` and `validation/` directories, so be sure to create them before running the code.
 
