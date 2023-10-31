@@ -1,4 +1,4 @@
-# Foundation Project Portfolio ```Face Recognition Tool With Python```
+# Portfolio Project - Face Recognition Tool With Python
 
 This is a small CLI foundation project to on how I built a face recognition tool using Python. 
 
