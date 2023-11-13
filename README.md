@@ -28,7 +28,7 @@ The script will make use of the `training/`, `output/`, and `validation/` direct
 
 ## Process
 
-* In step 1, I'll create the project environment, install the necessary dependencies, and set the stage for your application.
+* In step-1, I'll create the project environment, install the necessary dependencies, and set the stage for your application.
 
                            Projects directory system
 ![architecture](https://github.com/fasamany1/resources-face_recognition/assets/9413367/1b704590-7594-4117-bc8e-265b3948cc25)
@@ -36,12 +36,12 @@ The script will make use of the `training/`, `output/`, and `validation/` direct
 
 
 
-* In step 2, I'll start writing the code. This code will load the training data and start training the model. By the  end of this step, the training data would have been loaded, detected faces in each image, and saved as encodings.
-* In step 3, I’ll build the recognize_faces() function, which recognizes faces in images that don’t have a label.
-* Now comes step 4, to draw on the input image! This will help the user see which face is being identified and what it’s being identified as. This will be accomplished by using a popular technique which is to draw a bounding box around the face and give it a label. To do this, I’ll use Pillow, a high-powered image-processing library for Python. 
-* Step 5 uses the model validation technique that tests the trained model by providing data that it hasn’t seen before but that I have. Knowing the correct label for each image allows me to get an idea of the model’s performance on new data. 
-* Step 6 has users in mind so that users can access the app’s functionality. I’ll build a command-line interface for the script using the standard library’s argparse module. 
-* Now that project is built, it’s time to actually perform face recognition. I might have saved and played with the program already, but it’s always worthwhile to take it for another spin. That way, I can diagnose bugs, uncover different uses, and more. 
+* In step-2, I'll start writing the code. This code will load the training data and start training the model. By the  end of this step, the training data would have been loaded, detected faces in each image, and saved as encodings.
+* In step-3, I’ll build the recognize_faces() function, which recognizes faces in images that don’t have a label.
+* Now comes step-4, to draw on the input image! This will help the user see which face is being identified and what it’s being identified as. This will be accomplished by using a popular technique which is to draw a bounding box around the face and give it a label. To do this, I’ll use Pillow, a high-powered image-processing library for Python. 
+* Step-5 uses the model validation technique that tests the trained model by providing data that it hasn’t seen before but that I have. Knowing the correct label for each image allows me to get an idea of the model’s performance on new data. 
+* Step-6 has users in mind so that users can access the app’s functionality. I’ll build a command-line interface for the script using the standard library’s argparse module. 
+* Now that the project is built, it’s time to actually perform face recognition. I might have saved and played with the program already, but it’s always worthwhile to take it for another spin. That way, I can diagnose bugs, uncover different uses, and more. 
 
 ![facerec1](https://github.com/fasamany1/resources-face_recognition/assets/9413367/8aa2a1d7-2134-48af-ade3-b03fd28bcbc4)
 
