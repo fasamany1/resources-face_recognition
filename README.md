@@ -31,7 +31,8 @@ The script will make use of `training/`, `output/` and `validation/` directories
 * In step 1, I'll create the project environment, install necessary dependencies, and set the stage for your application.
 
 **                            Projects directory system
-                            ![Alt text](architecture.png)
+                            ![facerec2](https://github.com/fasamany1/resources-face_recognition/assets/9413367/363a42d5-efa1-439a-9d58-fc458da5a64e)
+
 
 * In step 2, I'll start writing the code. This code will load the training data and start training the model. By the  end of this step, the training data would have been loaded, detected faces in each image, and saved them as encodings.
 * In step 3, I’ll build the recognize_faces() function, which recognizes faces in images that don’t have a label.
@@ -40,7 +41,7 @@ The script will make use of `training/`, `output/` and `validation/` directories
 * Step 6 has users in mind, that users can access the app’s functionality. I’ll build a command-line interface for the script using the standard library’s argparse module. 
 * Now that project is built, it’s time to actually perform face recognition. I might have saved and played with the program already, but it’s always worthwhile to take it for another spin. That way, I can diagnose bugs, uncover different uses, and more. 
 
-                             ![Alt text](facerec1.png)
+                             ![facerec1](https://github.com/fasamany1/resources-face_recognition/assets/9413367/25a4ac9c-9e79-49d1-b26f-ead8f32d25f4)
 
 ## Usage
 
