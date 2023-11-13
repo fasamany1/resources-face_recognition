@@ -30,8 +30,9 @@ The script will make use of `training/`, `output/` and `validation/` directories
 
 * In step 1, I'll create the project environment, install necessary dependencies, and set the stage for your application.
 
-**                            Projects directory system
-                            ![facerec2](https://github.com/fasamany1/resources-face_recognition/assets/9413367/363a42d5-efa1-439a-9d58-fc458da5a64e)
+                           Projects directory system
+                          ![architecture](https://github.com/fasamany1/resources-face_recognition/assets/9413367/c0e5dce2-8f5c-4d4d-8e40-019d8e5f1c4b)
+
 
 
 * In step 2, I'll start writing the code. This code will load the training data and start training the model. By the  end of this step, the training data would have been loaded, detected faces in each image, and saved them as encodings.
@@ -52,7 +53,8 @@ The three major phases of the machine learning workflow are represented by the p
 - `--test`: Run a trained model on an image with an unknown face in it. The script will use the model to detect and attempt to identify the face in the image.
 - `-m`: Specify the type of model architecture you want to use. `"hog"` is the default and best for CPU-based training, while `"cnn"` is better for GPU training and will generally give better performance.
 
-                                ![Alt text](facerec2.png)       
+                               ![facerec2](https://github.com/fasamany1/resources-face_recognition/assets/9413367/c91c698e-1834-49ae-88b2-e28a93c81f4c)
+ 
 
 ## Contributing
 
